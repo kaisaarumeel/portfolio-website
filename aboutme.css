@@ -1,11 +1,42 @@
 
 
     html {
-    font-size: 22px;
-    
+    font-family: 'Optima', sans-serif;
     }
 
     body {
     background-color: whitesmoke;
     color: black;
+    }
+
+    .heading-1{
+        text-align: center;
+    }
+
+    .intro-container{
+        display: flex;
+        flex-direction: row;
+        background-color: #D3DEF0;
+        border-radius: 30px;
+    }
+    
+    .intro-text{
+        text-align: justify;
+        text-justify: inter-word;
+        margin-right: 20px;
+    }
+
+    .kaisapic{
+        height: 110px;
+        width: 110px;
+        border-radius: 60px;
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+
+    .kaisa-pic-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }

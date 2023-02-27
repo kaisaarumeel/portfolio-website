@@ -9,3 +9,23 @@
             color: black;
         }
 
+
+    
+        .home-page-container{
+            background-image: url(home-page-pic.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            height:100%;
+            background-position: center center;
+            text-align:center;
+            margin:auto;
+            padding:0;
+            min-height: 1000px;
+            background-size: cover;
+            opacity: 0.6;
+        }
+
+        .menu-on-home-page{
+            display: flex;
+            
+        }

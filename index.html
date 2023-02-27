@@ -2,6 +2,7 @@
 <html lang = "en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name = "author" content="Kaisa Arumeel">
     <meta name="description" content="This is my first personal project">
@@ -9,16 +10,54 @@
     <link rel="icon" href="SEAL.png">
     <link rel="stylesheet" href="style.css">
 
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="nofollow" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+
 </head>
 
 
 <body>
 
-<div class="home-page-container" >
+<div class="row home-page-container" >
 
-    <div class="menu-on-home-page">
-        <p> &copy; <a href="about.html"> Kaisa Arumeel </a></p>
+    <div class = "col-8">
     </div>
+    
+    <div class="col-4 menu-on-home-page">
+        
+        <div class="overlay">  </div>
+        
+        <div class="sidebar">
+            <a href="" class="sidebar-item">
+                <div>ABOUT ME</div>
+            </a>
+            <a href="" class="sidebar-item">
+                <div>BOOGIEBOOGIE</div>
+            </a>
+            <a href="" class="sidebar-item">
+                <div>CONTACT</div>
+            </a>
+    
+        </div>
+        <div class ="menu-container">
+            <button class="hamburger" onclick="hideButton()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+		        <div class="bar"></div>
+            </button>
+        </div> 
+        <div class="author-of-page">
+            <p> &copy; Kaisa Arumeel </p>
+        </div>
+    </div>
+
 </div>
 
 </body>

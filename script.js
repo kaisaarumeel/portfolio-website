@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.getElementsByClassName('hamburger')[0];
     const sidebar = document.getElementsByClassName('sidebar')[0];
     const overlay = document.getElementsByClassName('overlay')[0];
+    const aboutbtn = document.getElementsByClassName('aboutme')[0];
   
     let menuOpen = false;
   
@@ -30,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         hamburger.style.display = "block";
       }
     });
-      
+    
+
   });
   

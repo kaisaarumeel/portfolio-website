@@ -134,6 +134,32 @@
             border: none;
           }
 
+
+          .kaisa-text{
+            font-family: 'Gloock', serif;
+            font-size: 55px;
+            display: flex;
+            flex-direction: row;
+            height: 40%;
+            width: 60%;
+            align-items: center;
+            justify-content: end;
+            position: fixed;
+            opacity: 0.6;
+          }
+
+          .arumeel-text{
+            font-family: 'Gloock', serif;
+            font-size: 55px;
+            display: flex;
+            flex-direction: row;
+            width: 190%;
+            height: 35%;
+            align-items: end;
+            justify-content: center;
+            opacity: 0.7;
+          }
+
     
  
 

@@ -1,6 +1,6 @@
-# my-first-webpage
+# My porfolio
 
-This is my porfolio website which I built in order to learn web development and design. 
+Welcome to my first ever webpage! This is my portfolio website that i built in order to learn we development and design.
 
 Technologies used:
 -HTML

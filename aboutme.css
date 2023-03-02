@@ -13,12 +13,62 @@
         text-align: center;
     }
 
-    .intro-container{
+    .header{
         display: flex;
         flex-direction: row;
-        background-color: #D3DEF0;
-        border-radius: 30px;
+        height: 12vh;
+        width: 100%;
+        color: black;
+        font-family: 'Gloock', serif;
+        font-size: 16px;
+        justify-content: center;
+        justify-content: space-around;
+        overflow: hidden;
     }
+
+    .header-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    #homebtn{
+        background: none;
+        outline: none;
+        border: none;
+      }
+
+      #homebtn:hover{
+        color: #DEECFC;
+      }
+
+      #aboutmebtn{
+        background: #EFF7FF;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+      }
+
+      #boogiebtn:hover{
+        color: #DEECFC;
+      }
+
+      #boogiebtn{
+        background: none;
+        outline: none;
+        border: none;
+      }
+
+      #contactbtn{
+        background: none;
+        outline: none;
+        border: none;
+      }
+
+      #contactbtn:hover{
+        color: #DEECFC;
+      }
     
     .intro-text{
         text-align: justify;

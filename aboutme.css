@@ -69,24 +69,45 @@
       #contactbtn:hover{
         color: #DEECFC;
       }
+
+      .kaisa{
+        padding-top: 50px;
+      }
+
+      .pic{
+        height: 400px;
+        width: 700px;
+        max-width: 100%;
+        height: auto;
+      }
     
     .intro-text{
         text-align: justify;
         text-justify: inter-word;
-        margin-right: 20px;
-    }
-
-    .kaisapic{
-        height: 110px;
-        width: 110px;
-        border-radius: 60px;
-        margin-right: 20px;
-        margin-left: 20px;
 
     }
 
-    .kaisa-pic-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
+    @media only screen and (min-width: 768px) {
+      .first-pic {
+          order: 1;
+      }
+      .intro-text {
+          order: 2;
+      }
+  }
+
+  @media only screen and (min-width: 992px) {
+      .col-1 {
+          flex: 0 0 10%;
+      }
+      .first-pic {
+          flex: 0 0 50%;
+      }
+      .intro-text {
+          flex: 0 0 40%;
+      }
     }
+
+    
+

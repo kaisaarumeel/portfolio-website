@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    width: 100%;
+    color: black;
+    font-family: 'Gloock', serif;
+    font-size: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.header-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#homebtn{
+    background: none;
+    outline: none;
+    border: none;
+  }
+
+  #homebtn:hover{
+    color: #DEECFC;
+  }
+
+  #boogiebtn{
+    background: #EFF7FF;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+  }
+
+  #contactbtn{
+    background: none;
+    outline: none;
+    border: none;
+  }
+  #contactbtn:hover{
+    color: #DEECFC;
+  }
+
+
+
+  #aboutmebtn{
+    background: none;
+    outline: none;
+    border: none;
+  }
+
+  #aboutmebtn:hover{
+    color: #DEECFC;
+  }

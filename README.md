@@ -1,9 +1,14 @@
 # My porfolio
 
-Welcome to my first ever webpage! This is my portfolio website that i built in order to learn we development and design.
+This is my portfolio website that I am currently building. Stay tuned for the final result!
 
 Technologies used:
+
+
 -HTML
+
 -CSS
+
 -JavaScript
+
 -Bootstrap

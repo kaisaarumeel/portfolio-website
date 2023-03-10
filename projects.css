@@ -57,6 +57,9 @@
   }
 
 
+  .buttonsx{
+    padding-top: 50px;
+  }
 
   .buttons {
     display: flex;
@@ -102,4 +105,26 @@
   #personalbtn:hover{
     color: black;
   }
+  
+  .snake-header{
+    font-family: 'Gloock', serif;
+    font-size: 30px;
+    text-align: end; 
+  }
+  .snake-pic{
+    width: 250px;
+    height: 250px;
+  }
+
+  .snake-game{
+    padding-top: 100px;
+  }
+
+  .snake-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: end;
+  }
+
+
   

@@ -109,8 +109,19 @@
   }
   
   .kaisapic {
-    max-width: 100%;
     height: 500px;
     padding-top: 30px;
+    opacity: 0.87;
   }
   
+  @media (max-width: 768px) {
+    .kaisapic {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .kaisapic {
+      height: 200px;
+    }
+  }

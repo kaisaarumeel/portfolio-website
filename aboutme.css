@@ -90,12 +90,32 @@
       
       }
 
-      .pic{
-
-        max-width: 100%;
-        height: auto;
+      .first-pic {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex: 1;
+        text-align: center;
       }
-    
+      
+      .pic {
+        width: 100%;
+        height: auto; /* keeps the aspect ratio of the image */
+        opacity: 0.8;
+      }
+      
+      @media (max-width: 768px) {
+        .pic {
+          height: 300px; /* fallback for smaller screens without flexbox support */
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .pic {
+          height: 100px; /* fallback for smaller screens without flexbox support */
+        }
+      }
+      
     .intro-text{
         text-align: justify;
         text-justify: inter-word;
@@ -113,24 +133,7 @@
 
 
 
-    @media only screen and (min-width: 768px) {
-      .first-pic {
-          order: 1;
-      }
-      .intro-text {
-          order: 2;
-      }
-  }
 
-  @media only screen and (min-width: 992px) {
-
-      .first-pic {
-          flex: 0 0 50%;
-      }
-      .intro-text {
-          flex: 0 0 40%;
-      }
-    }
 
     .Kaisa-Arumeel{
       font-family: 'Gloock', serif;
@@ -155,7 +158,7 @@
       text-align: center;
       text-justify: inter-word;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      background-color: #DEECFC;
+      background-color: rgb(247, 247, 247);
       font-size: 18px;
       display: flex;
       flex-direction: column;
@@ -205,7 +208,7 @@
 }
 
 .honours{
-  background-color: #F2F8FF;
+  background-color: #EFF7FF;
   padding: 20px;
   text-align: justify;
   text-justify: inter-word;
@@ -242,7 +245,12 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+.bed-pic{
+  width: 400px;
+  margin: 30px;
+  opacity: 0.8;
+  
+}
 .footer{
   display: flex;
   flex-direction: row;

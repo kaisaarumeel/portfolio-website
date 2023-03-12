@@ -110,6 +110,7 @@
     font-family: 'Gloock', serif;
     font-size: 30px;
     text-align: end; 
+    padding-bottom: 10px;
   }
   .snake-pic{
     width: 250px;
@@ -123,10 +124,50 @@
   .snake-text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    text-align: end;
+    text-align: justify;
+  }
+  .snake-link{
+    color: inherit;
+  }
+  .snake-game button{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    width: 50px; /* adjust as needed */
+    height: 50px; /* adjust as needed */
+  }
+  .snake-button{
+    text-align: center;
   }
 
+  .snake-game button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid black;
+    transform: translate(-50%, -50%) rotate(90deg);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .snake-game button.open::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+  }
+  
 
+
+  
+  
+
+  #more{
+    display: none;
+  }
   
 
 

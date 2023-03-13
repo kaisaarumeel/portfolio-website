@@ -10,4 +10,3 @@ function readMore(){
       btn.classList.remove("open");
     }
   }
-  

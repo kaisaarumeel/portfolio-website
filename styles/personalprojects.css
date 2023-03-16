@@ -104,26 +104,26 @@
     color: black;
   }
   
-  .snake-header{
+  .goncourt-header{
     font-family: 'Gloock', serif;
     font-size: 30px;
     text-align: end; 
     padding-bottom: 10px;
   }
 
-  .snake-pic-container{
+  .goncourt-pic-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 20px;
   }
 
-  .snake-pic{
-    width: 220px;
-    height: 220px;
+  .goncourt-pic{
+    width: 350px;
+    height: 250px;
   }
 
-  .snake-game{
+  .project{
     padding-top: 100px;
     padding-left: 20px;
     display: flex;
@@ -147,17 +147,14 @@
 
   }
 
-  .snake-text{
+  .goncourt-text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     text-align: justify;
     margin: 50px;
   }
-  .snake-link{
-    color: inherit;
-    font-weight: 600;
-  }
-  .snake-game button{
+
+  .project button{
     background: none;
     border: none;
     outline: none;
@@ -170,7 +167,7 @@
     text-align: center;
   }
 
-  .snake-game button::before {
+  .project button::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -184,21 +181,21 @@
     transition: transform 0.2s ease-in-out;
   }
 
-  .snake-game .snake-pic::after{
+  .project .snake-pic::after{
     align-self: flex-start;
   }
   
-  .snake-game .snake-pic::before{
+  .project .snake-pic::before{
     content: "";
     display: block;
     padding-top: 10%;
   }
   
-  .snake-game .snake-pic.open::before{
+  .project .snake-pic.open::before{
     padding-top: 10%;
   }
   
-  .snake-game button.open::before {
+  .project button.open::before {
     transform: translate(-50%, -50%) rotate(-90deg);
   }
   

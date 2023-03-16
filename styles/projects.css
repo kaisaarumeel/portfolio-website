@@ -117,7 +117,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: ;
   }
 
   .snake-pic{
@@ -125,7 +125,7 @@
     height: 220px;
   }
 
-  .snake-game{
+  .project{
     padding-top: 100px;
     padding-left: 20px;
     display: flex;
@@ -159,7 +159,7 @@
     color: inherit;
     font-weight: 600;
   }
-  .snake-game button{
+  .project button{
     background: none;
     border: none;
     outline: none;
@@ -172,7 +172,7 @@
     text-align: center;
   }
 
-  .snake-game button::before {
+  .project button::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -186,21 +186,21 @@
     transition: transform 0.2s ease-in-out;
   }
 
-  .snake-game .snake-pic::after{
+  .project .snake-pic::after{
     align-self: flex-start;
   }
   
-  .snake-game .snake-pic::before{
+  .project .snake-pic::before{
     content: "";
     display: block;
     padding-top: 10%;
   }
   
-  .snake-game .snake-pic.open::before{
+  .project .snake-pic.open::before{
     padding-top: 10%;
   }
   
-  .snake-game button.open::before {
+  .project button.open::before {
     transform: translate(-50%, -50%) rotate(-90deg);
   }
   

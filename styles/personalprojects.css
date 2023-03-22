@@ -121,6 +121,7 @@
   .goncourt-pic{
     width: 350px;
     height: 250px;
+    border-radius: 30px;
   }
 
   .project{
@@ -201,6 +202,10 @@
   
   .used-technologies{
     font-weight:600;
+  }
+
+  .used-technologies a{
+    color: inherit;
   }
 
   #more{

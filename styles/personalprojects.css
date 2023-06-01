@@ -4,7 +4,7 @@
     height: 12vh;
     width: 100%;
     color: black;
-    font-family: 'Gloock', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     justify-content: center;
     justify-content: space-around;
@@ -65,7 +65,7 @@
     justify-content: end;
     align-items: end;
     margin-top: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
   }
   
@@ -105,8 +105,9 @@
   }
   
   .goncourt-header{
-    font-family: 'Gloock', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 30px;
+    font-weight: 110;
     text-align: end; 
     padding-bottom: 10px;
   }
@@ -115,7 +116,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 20px;
   }
 
   .goncourt-pic{
@@ -149,8 +149,8 @@
   }
 
   .goncourt-text{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     text-align: justify;
     margin: 50px;
   }
@@ -164,59 +164,8 @@
     width: 50px; 
     height: 50px;
   }
-  .snake-button{
-    text-align: center;
-  }
 
-  .project button::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid black;
-    transform: translate(-50%, -50%) rotate(90deg);
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .project .snake-pic::after{
-    align-self: flex-start;
-  }
   
-  .project .snake-pic::before{
-    content: "";
-    display: block;
-    padding-top: 10%;
-  }
-  
-  .project .snake-pic.open::before{
-    padding-top: 10%;
-  }
-  
-  .project button.open::before {
-    transform: translate(-50%, -50%) rotate(-90deg);
-  }
-  
-  .used-technologies{
-    font-weight:600;
-  }
-
-  .used-technologies a{
-    color: inherit;
-  }
-
-  #more{
-    display: none;
-  }
-  
-
-
-
-
-
   .footer{
     display: flex;
     flex-direction: row;

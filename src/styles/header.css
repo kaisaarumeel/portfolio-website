@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    width: 100%;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.header-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#homebtn, #projectbtn, #contactbtn, #aboutmebtn{
+    background: none;
+    outline: none;
+    border: none;
+  }
+
+  #homebtn:hover, #projectbtn:hover, #contactbtn:hover, #aboutmebtn:hover{
+    color: #DEECFC;
+  }
+
+ 

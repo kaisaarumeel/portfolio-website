@@ -1,0 +1,68 @@
+
+  .snake-header, .kiwave-header, .goncourt-header{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 110;
+    text-align: end; 
+    padding-bottom: 10px;
+  }
+
+  .snake-pic-container, .kiwave-pic-container, .goncourt-pic-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .snake-pic{
+    width: 220px;
+    height: 220px;
+  }
+
+  .kiwave-pic{
+    height: 80px;
+  }
+
+  .goncourt-pic{
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+  }
+
+  .project{
+    padding-top: 100px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #EFF7FF;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .testing{
+    padding-top: 5%;
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .snake-text, .kiwave-text, .goncourt-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin: 50px;
+    margin-top: 0px;
+  }
+
+  .snake-link, .kiwave-link{
+    color: inherit;
+    font-weight: 600;
+  }
+ 
